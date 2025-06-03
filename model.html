@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mb-5">
+      <!-- intro section -->
+      <div class="jumbotron text-center">
+        <h1 class="display-4 text-primary">Welcome to Code Camp Sri Lanka</h1>
+        <h5 class="text-success">Tutor : Udeshi Prabhashini</h5>
+        <p class="lead">Bootstrap සිංහලෙන් #10</p>
+        <hr class="my-2" />
+        <p>We code from Zero</p>
+        <hr class="my-2" />
+        <h1>Today Topic - Modals</h1>
+        <p>
+          Use Bootstrap’s JavaScript modal plugin to add dialogs to your site
+          for lightboxes, user notifications, or completely custom content.
+        </p>
+      </div>
+      <!-- //intro section -->
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#basicModal"
+      >
+        Basic Modal
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModalScrollBody"
+      >
+        Basic Modal Scroll
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#ModalScrollBody"
+      >
+        Basic Modal Scrollable
+      </button>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#ModalvBody"
+      >
+        Basic Modal Vertical
+      </button>
+    </div>
+
+    <!-- Basic modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="basicModal">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal Title</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
+              ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+              magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus
+              vel augue laoreet rutrum faucibus dolor auctor.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal scroll content-->
+    <div
+      class="modal fade"
+      tabindex="-1"
+      id="exampleModalScrollBody"
+      role="dialog"
+    >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
+              ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+              magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus
+              vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // Modal scroll contet -->
+
+    <!-- Modal scroll content-->
+    <div class="modal fade" tabindex="-1" id="ModalScrollBody" role="dialog">
+      <div
+        class="modal-dialog modal-dialog-scrollable modal-xl"
+        role="document"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
+              ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+              magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus
+              vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla. Cras mattis
+              consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+              facilisis in, egestas eget quam. Morbi leo risus, porta ac
+              consectetur ac, vestibulum at eros. Praesent commodo cursus magna,
+              vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel
+              augue laoreet rutrum faucibus dolor auctor. Aenean lacinia
+              bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+              scelerisque nisl consectetur et. Donec sed odio dui. Donec
+              ullamcorper nulla non metus auctor fringilla.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // Modal scroll contet -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="ModalvBody">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal Title</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+              dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta
+              ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+              magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus
+              vel augue laoreet rutrum faucibus dolor auctor.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
