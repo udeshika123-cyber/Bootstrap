@@ -19,6 +19,7 @@ This project demonstrates how to use Bootstrap to create responsive and styled f
 ## Example
 
 The `forms.html` file includes:
+
 - Email and password input fields
 - Address fields
 - City, state, and zip code fields
