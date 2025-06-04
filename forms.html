@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="jumbotron text-center">
+        <h1 class="display-4 text-primary">Welcome to code camp Sri Lanka</h1>
+        <h5 class="text-success">Udeshika Prabhashani</h5>
+        <p class="lead">Bootstrap සිංහලෙන් #10</p>
+        <p class="lead">Bootstrap</p>
+        <hr class="my-2" />
+        <p>We code from zero</p>
+        <hr class="my-2" />
+        <h1>Today topic - Forms</h1>
+        <br /><br />
+      </div>
+      <!-- First from application -->
+      <form action="">
+        <div class="form-group">
+          <h1 class="text-center card-title">Submission Form</h1>
+          <hr class="my-2" />
+          <br />
+          <label for="exampleInputEmail"> Email address : </label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+          <small id="emailHelp" class="form-text text-muted">
+            We'll never share your email with anyone else.</small
+          >
+          <br />
+          <label for="exampleInputPassword"> Password : </label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword"
+            placeholder="Password"
+          />
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="checkbox1" />
+            <label for="checkbox1" class="form-check-label">Check me Out</label>
+            <br /><br />
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <br />
+
+        <!-- Second form application -->
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="exampleInputEmail"> Email address : </label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="exampleInputPassword"> Password : </label>
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword"
+              placeholder="Password"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="address">Address :</label>
+          <input
+            type="text"
+            class="form-control"
+            id="address"
+            placeholder="1234 Main St"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="address2">Address2 :</label>
+          <input
+            type="text"
+            class="form-control"
+            id="adress2"
+            placeholder="Apartment, studio, or floor"
+          />
+          <br />
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="city" aria-placeholder="">City :</label>
+              <input type="text" id="city" class="form-control" />
+            </div>
+
+            <div class="from-group col-md-4">
+              <label for="state">State : </label>
+              <select id="state" class="form-control">
+                <option selected>Choose...</option>
+                <option>Balangoda</option>
+                <option>Ratnapura</option>
+                <option>Colombo</option>
+                <option>Galle</option>
+                <option>Matara</option>
+                <option>Gampaha</option>
+                <option>Kurunegala</option>
+              </select>
+            </div>
+
+            <div class="from-group col-md-2">
+              <label for="zip">Zip Code : </label>
+              <input type="text" id="zip" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="gridCheck1" />
+              <label for="gridCheck1" class="form-check-label"
+                >Check me out</label
+              >
+            </div>
+            <br />
+            <button class="btn btn-primary" type="submit">Sign In</button>
+          </div>
+          <br />
+        </div>
+      </form>
+    </div>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
